@@ -1,9 +1,9 @@
 database:
-  uri: "postgresql://postgres:postgres@8.134.166.116/file_storage"
+  uri: "postgresql://postgres:postgres@172.17.0.2/file_storage"
   track_modifications: false
 
 minio:
-  host: "8.134.166.116:9000"
+  host: "172.17.0.2:9000"
   access_key: "ift_bigdata"
   secret_key: "minio_password"
   secure: False
